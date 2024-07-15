@@ -13,7 +13,7 @@ class login:
         self.bg = PhotoImage(file=r"c:\Users\ACER\Pictures\aanu.png")
         self.image = Label(self.root,image=self.bg).place(x=0,y=0,relheight=1,relwidth=1)
       
-         #Frame 
+        #Frame 
         frame_login = Frame(self.root, bg="white")
         frame_login.place(x=330,y=150,width=500,height=400)
 
